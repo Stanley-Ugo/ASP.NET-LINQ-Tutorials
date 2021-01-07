@@ -12,6 +12,8 @@ namespace ExtensionMethodsDemo
         {
             string stringName = "pragim";
             string result = stringName.ChangeFirstLetterCase();
+
+            Console.WriteLine(result);
         }
     }
 }
