@@ -19,6 +19,11 @@ namespace ExtensionMethodsDemo
                 return new string(charArray);
             }
 
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            IEnumerable<int> evenNumbers = numbers.Where(n => n % 2 == 0);
+            //Or could be  written as
+            IEnumerable<int> evenNumbersII = Enumerable.Where(numbers, n => n % 2 == 0);
+
             return inputString;
         }
     }
