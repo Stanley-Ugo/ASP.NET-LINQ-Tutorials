@@ -49,5 +49,17 @@ namespace ExtensionMethodsDemo
 
             return result;
         }
+
+        public void RestrictionOperators()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //Creating a func to paass to the where extension method
+            Func<int, bool> predicate = x => x % 2 == 0;
+            IEnumerable<int> evenNumbers = numbers.Where(predicate);
+
+            foreach (int i in evenNumbers)
+                Console.WriteLine(i);
+        }
     }
 }
