@@ -18,6 +18,10 @@ namespace ExtensionMethodsDemo
             //Getting the Max even numbers Values with LINQ
             int resultII = numbers.Where(x => x % 2 == 0).Max();
 
+            //Finding the Sum of the Numbers with Linq
+            int sumOfAllNumbers = numbers.Sum();
+            int sumOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Sum();
+
             return result;
         }
     }
