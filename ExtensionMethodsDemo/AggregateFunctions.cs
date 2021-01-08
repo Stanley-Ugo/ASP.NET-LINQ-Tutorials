@@ -26,6 +26,10 @@ namespace ExtensionMethodsDemo
             int countOfAllNumbers = numbers.Count();
             int countOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Count();
 
+            //Finding the Average of all Numbers
+            double averageOfAllNumbers = numbers.Average();
+            double averageOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Average();
+
 
             return result;
         }
