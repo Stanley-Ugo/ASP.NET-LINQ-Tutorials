@@ -98,5 +98,84 @@ namespace ExtensionMethodsDemo
                 Console.WriteLine(item.Name + " : " + item.AnnualSalary + " - " + item.Bonus);
             }
         }
+
+        public void SelectManyOperator()
+        {
+            //Gets all Distinct students's subjects from the list of subjects returned
+            IEnumerable<string> subjects = Student.GetAllStudents().SelectMany(s => s.Subjects).Distinct();
+
+            foreach (string subject in subjects)
+            {
+                Console.WriteLine(subject);
+            }
+
+            //Using SQL Like query to get Similar result sets
+            IEnumerable<string> subjectsII = (from student in Student.GetAllStudents()
+                                              from subject in student.Subjects
+                                              select subject).Distinct();
+
+            foreach (string subject in subjectsII)
+            {
+                Console.WriteLine(subject);
+            }
+
+            //Printing out the student Name and subjects
+            var result = Student.GetAllStudents().SelectMany(s => s.Subjects, (student, subject) =>
+                                                             new { StudentName = student.Name, SubjectName = subject });
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.StudentName + " - " + item.SubjectName );
+            }
+        }
+
+        public void SortingOperators()
+        {
+            IOrderedEnumerable<Student> result = Student.GetAllStudents().OrderBy(s => s.TotalMarks).ThenBy(s => s.Name).ThenByDescending(s => s.StudentId);
+
+            foreach ( Student student in result)
+            {
+                Console.WriteLine(student.TotalMarks + "\t" + student.Name + "\t" + student.StudentId);
+            }
+        }
+
+        public void PaginationWithSkipAndTake()
+        {
+            do
+            {
+                IEnumerable<Student> students = Student.GetAllStudents();
+
+                Console.WriteLine("Please Enter Page Number between - 1,2,3 or 4");
+
+                int pageNumber = 0;
+
+                if (int.TryParse(Console.ReadLine(), out pageNumber))
+                {
+                    if (pageNumber >= 1 && pageNumber <= 4)
+                    {
+                        int pageSize = 3;
+                        IEnumerable<Student> result = students.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+
+                        Console.WriteLine();
+                        Console.WriteLine("Displaying Page " + pageNumber);
+
+                        foreach (Student item in result)
+                        {
+                            Console.WriteLine(item.StudentId + "\t" + item.Name + "\t" + item.TotalMarks);
+                        }
+
+                        Console.WriteLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Page Number Must be an integer between 1 and 4");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Page Number Must be an integer between 1 and 4");
+                }
+            } while (1 == 1);
+        }
     }
 }
