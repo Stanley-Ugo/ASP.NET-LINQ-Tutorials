@@ -62,5 +62,32 @@ namespace ExtensionMethodsDemo
                 Console.WriteLine(i);
 
         }
+
+        public void ProjectionOperation()
+        {
+            //Getting the List of Employees ID
+           IEnumerable<int> results = Employee.GetAllEmployee().Select(emp => emp.EmployeeId);
+
+            foreach(int id in results)
+            {
+                Console.WriteLine(id);
+            }
+
+            //Getting the FirstName and Lastame Projected into an annonymous type
+            var result = Employee.GetAllEmployee().Select(emp => new { FirstName = emp.FirstName, Gender = emp.Gender } );
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.FirstName + " - " + item.Gender);
+            }
+
+            //Getting the Fullname and Monthly Salary
+            var resultSet = Employee.GetAllEmployee().Select(emp => new { FullName = emp.FirstName + " " + emp.LastName, MonthlySalary = emp.AnnualSalary / 12 });
+
+            foreach (var item in resultSet)
+            {
+                Console.WriteLine(item.FullName + " " + item.MonthlySalary);
+            }
+        }
     }
 }
