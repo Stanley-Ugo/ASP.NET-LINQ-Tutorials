@@ -88,6 +88,15 @@ namespace ExtensionMethodsDemo
             {
                 Console.WriteLine(item.FullName + " " + item.MonthlySalary);
             }
+
+            //Computing Employee Bonus [10%] to Employees who Earn above 50000
+            var resultBonus = Employee.GetAllEmployee().Where(x => x.AnnualSalary > 50000)
+                .Select(emp => new { Name = emp.FirstName, AnnualSalary = emp.AnnualSalary, Bonus = emp.AnnualSalary * .1 });
+
+            foreach (var item in resultBonus)
+            {
+                Console.WriteLine(item.Name + " : " + item.AnnualSalary + " - " + item.Bonus);
+            }
         }
     }
 }
