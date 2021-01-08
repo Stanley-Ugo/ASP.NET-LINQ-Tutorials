@@ -43,6 +43,10 @@ namespace ExtensionMethodsDemo
             string countryList = countries.Aggregate((a, b) => a + "," + b);
             //result =  "India, USA, UK, Canada, Australia"
 
+            //Getting the Product of an int array with Linq aggregate Function
+            //the Number 10 here is the seeding number that is the first number to be multiplies with the numb array
+            int intArrayResult = numbers.Aggregate(10, (a, b) => a * b);
+
             return result;
         }
     }
