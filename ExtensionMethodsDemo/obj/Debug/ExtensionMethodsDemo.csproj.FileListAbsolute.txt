@@ -5,3 +5,6 @@ C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\obj\Debug\ExtensionMetho
 C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.csproj.CoreCompileInputs.cache
 C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.exe
 C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.pdb
+C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\bin\Debug\EntityFramework.dll
+C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\bin\Debug\EntityFramework.xml
+C:\Projects\ASP.NET LINQ Tutorials\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.csproj.CopyComplete

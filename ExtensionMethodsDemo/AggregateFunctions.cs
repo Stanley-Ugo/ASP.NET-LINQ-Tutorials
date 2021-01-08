@@ -60,6 +60,7 @@ namespace ExtensionMethodsDemo
 
             foreach (int i in evenNumbers)
                 Console.WriteLine(i);
+
         }
     }
 }
