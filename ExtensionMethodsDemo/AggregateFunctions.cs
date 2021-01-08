@@ -30,6 +30,15 @@ namespace ExtensionMethodsDemo
             double averageOfAllNumbers = numbers.Average();
             double averageOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Average();
 
+            //Finding the minCount() & maxCount() values of a string
+            string[] countries = { "India", "USA", "UK" };
+
+            //FInding the minCount
+            int minCount = countries.Min(x => x.Length);
+
+            //FInding the Max Count
+            int maxCount = countries.Max(x => x.Length);
+
 
             return result;
         }
