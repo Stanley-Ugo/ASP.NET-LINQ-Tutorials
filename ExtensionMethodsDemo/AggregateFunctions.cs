@@ -31,14 +31,17 @@ namespace ExtensionMethodsDemo
             double averageOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Average();
 
             //Finding the minCount() & maxCount() values of a string
-            string[] countries = { "India", "USA", "UK" };
+            string[] countries = { "India", "USA", "UK", "Canada", "Australia" };
 
             //FInding the minCount
             int minCount = countries.Min(x => x.Length);
 
-            //FInding the Max Count
+            //FInding the Max Countx
             int maxCount = countries.Max(x => x.Length);
 
+            //Using the Aggragate Function To Concatenate strings
+            string countryList = countries.Aggregate((a, b) => a + "," + b);
+            //result =  "India, USA, UK, Canada, Australia"
 
             return result;
         }
