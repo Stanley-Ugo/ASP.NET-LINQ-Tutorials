@@ -22,6 +22,11 @@ namespace ExtensionMethodsDemo
             int sumOfAllNumbers = numbers.Sum();
             int sumOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Sum();
 
+            //finding the count of Numbers
+            int countOfAllNumbers = numbers.Count();
+            int countOfAllEvenNumbers = numbers.Where(n => n % 2 == 0).Count();
+
+
             return result;
         }
     }
