@@ -130,6 +130,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
+        //Sorting OPerators
         public void SortingOperators()
         {
             IOrderedEnumerable<Student> result = Student.GetAllStudents().OrderBy(s => s.TotalMarks).ThenBy(s => s.Name).ThenByDescending(s => s.StudentId);
