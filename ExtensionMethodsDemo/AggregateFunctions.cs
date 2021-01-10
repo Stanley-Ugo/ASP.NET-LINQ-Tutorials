@@ -197,10 +197,15 @@ namespace ExtensionMethodsDemo
 
         public void UnionOperators()
         {
+            //array of integers
             int[] numbers1 = { 1, 2, 3, 4, 5 };
             int[] numbers2 = { 1, 3, 6, 7, 8 };
 
+            //combining the array only distinct numbers
             var result = numbers1.Union(numbers2);
+
+            //getting just the numbers comon to both variables
+            var result2 = numbers1.Intersect(numbers2);
 
             foreach (var item in result)
             {
