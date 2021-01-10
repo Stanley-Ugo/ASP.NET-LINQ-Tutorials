@@ -201,6 +201,11 @@ namespace ExtensionMethodsDemo
             int[] numbers2 = { 1, 3, 6, 7, 8 };
 
             var result = numbers1.Union(numbers2);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
