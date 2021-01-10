@@ -188,6 +188,7 @@ namespace ExtensionMethodsDemo
 
             var result = countries.Distinct();
 
+            //looping throught the result set & printing to the console
             foreach (var item in result)
             {
                 Console.WriteLine(item);
