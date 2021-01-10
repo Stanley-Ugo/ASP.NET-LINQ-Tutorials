@@ -198,6 +198,7 @@ namespace ExtensionMethodsDemo
         public void UnionOperators()
         {
             int[] numbers1 = { 1, 2, 3, 4, 5 };
+            int[] numbers2 = { 1, 3, 6, 7, 8 };
         }
     }
 }
