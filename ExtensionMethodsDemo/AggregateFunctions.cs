@@ -181,5 +181,10 @@ namespace ExtensionMethodsDemo
                 }
             } while (1 == 1);
         }
+
+        public void SetOperators()
+        {
+
+        }
     }
 }
