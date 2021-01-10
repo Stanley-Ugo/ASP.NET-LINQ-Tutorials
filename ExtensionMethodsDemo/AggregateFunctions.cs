@@ -185,6 +185,13 @@ namespace ExtensionMethodsDemo
         public void SetOperators()
         {
             string[] countries = { "USA", "usa", "INDIA", "UK", "UK" };
+
+            var result = countries.Distinct();
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
