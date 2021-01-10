@@ -186,7 +186,7 @@ namespace ExtensionMethodsDemo
         {
             string[] countries = { "USA", "usa", "INDIA", "UK", "UK" };
 
-            var result = countries.Distinct();
+            var result = countries.Distinct(StringComparer.OrdinalIgnoreCase);
 
             //looping throught the result set & printing to the console
             foreach (var item in result)
