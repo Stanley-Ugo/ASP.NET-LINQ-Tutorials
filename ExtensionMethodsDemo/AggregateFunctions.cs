@@ -184,7 +184,7 @@ namespace ExtensionMethodsDemo
 
         public void SetOperators()
         {
-
+            string[] countries = { "USA", "usa", "INDIA", "UK", "UK" };
         }
     }
 }
