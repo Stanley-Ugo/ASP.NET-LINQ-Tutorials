@@ -207,6 +207,9 @@ namespace ExtensionMethodsDemo
             //getting just the numbers comon to both variables
             var result2 = numbers1.Intersect(numbers2);
 
+            //getting just the numbers in result except the numbers passed in
+            var result3 = numbers1.Except(numbers2);
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
