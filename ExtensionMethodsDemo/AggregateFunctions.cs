@@ -227,6 +227,9 @@ namespace ExtensionMethodsDemo
             //Using the .Repeat to reapeat an item to the console
             var result3 = Enumerable.Repeat("Hello", 5);
 
+            //Using the Empty<> operator to avoid getting into null reference exceptions
+            IEnumerable<int> result4 = Enumerable.Empty<int>(); // returns 0
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
