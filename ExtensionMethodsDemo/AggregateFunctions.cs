@@ -221,6 +221,9 @@ namespace ExtensionMethodsDemo
             //Generating numbers from 1 - 10 with the Range Operator
             IEnumerable<int> result = Enumerable.Range(1, 10);
 
+            //Generating only even numbers from 1 - 10 with the Range Operator
+            IEnumerable<int> result2 = Enumerable.Range(1, 10).Where(x => x % 2 == 0);
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
