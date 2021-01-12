@@ -224,6 +224,9 @@ namespace ExtensionMethodsDemo
             //Generating only even numbers from 1 - 10 with the Range Operator
             IEnumerable<int> result2 = Enumerable.Range(1, 10).Where(x => x % 2 == 0);
 
+            //Using the .Repeat to reapeat an item to the console
+            var result3 = Enumerable.Repeat("Hello", 5);
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
