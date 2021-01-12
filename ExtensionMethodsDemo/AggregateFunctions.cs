@@ -220,6 +220,11 @@ namespace ExtensionMethodsDemo
         {
             //Generating numbers from 1 - 10 with the Range Operator
             IEnumerable<int> result = Enumerable.Range(1, 10);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
