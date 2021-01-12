@@ -218,7 +218,8 @@ namespace ExtensionMethodsDemo
 
         public void GenerationOPerators()
         {
-
+            //Generating numbers from 1 - 10 with the Range Operator
+            IEnumerable<int> result = Enumerable.Range(1, 10);
         }
     }
 }
