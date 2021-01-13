@@ -241,7 +241,8 @@ namespace ExtensionMethodsDemo
 
         public void SequenceEqualOperator()
         {
-
+            string[] countries = { "USA", "INDIA", "UK" };
+            string[] countries2 = { "USA", "india", "UK" };
         }
     }
 }
