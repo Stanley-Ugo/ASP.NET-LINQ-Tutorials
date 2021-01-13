@@ -238,5 +238,10 @@ namespace ExtensionMethodsDemo
                 Console.WriteLine(item);
             }
         }
+
+        public void SequenceEqualOperator()
+        {
+
+        }
     }
 }
