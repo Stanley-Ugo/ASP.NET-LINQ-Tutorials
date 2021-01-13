@@ -243,6 +243,10 @@ namespace ExtensionMethodsDemo
         {
             string[] countries = { "USA", "INDIA", "UK" };
             string[] countries2 = { "USA", "india", "UK" };
+
+            var result = countries.SequenceEqual(countries2);
+
+            Console.WriteLine("Are Equal = " + result);
         }
     }
 }
