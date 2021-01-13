@@ -210,6 +210,9 @@ namespace ExtensionMethodsDemo
             //getting just the numbers in result except the numbers passed in
             var result3 = numbers1.Except(numbers2);
 
+            //
+            var result4 = numbers1.Concat(numbers2);
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
