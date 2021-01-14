@@ -273,6 +273,7 @@ namespace ExtensionMethodsDemo
 
             string[] countries = { "USA", "INDIA", "UK" };
 
+            var resultSet = countries.Contains("india", StringComparer.OrdinalIgnoreCase);
 
             Console.WriteLine(result);
         }
