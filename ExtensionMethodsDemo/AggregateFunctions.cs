@@ -271,6 +271,9 @@ namespace ExtensionMethodsDemo
             //chects to see if an element is present in a sequence
             var result4 = numbers.Contains(3);
 
+            string[] countries = { "USA", "INDIA", "UK" };
+
+
             Console.WriteLine(result);
         }
     }
