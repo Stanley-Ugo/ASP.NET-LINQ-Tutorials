@@ -254,5 +254,10 @@ namespace ExtensionMethodsDemo
 
 
         }
+
+        public void QuantifiersOperators()
+        {
+
+        }
     }
 }
