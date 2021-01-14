@@ -268,6 +268,9 @@ namespace ExtensionMethodsDemo
             //returns false cos no number in the numbers array is greater then 10
             var results3 = numbers.Any(x => x > 10);
 
+            //chects to see if an element is present in a sequence
+            var result4 = numbers.Contains(3);
+
             Console.WriteLine(result);
         }
     }
