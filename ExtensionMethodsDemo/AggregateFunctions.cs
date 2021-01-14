@@ -276,7 +276,7 @@ namespace ExtensionMethodsDemo
             //returns true after comparing regardles of case
             var resultSet = countries.Contains("india", StringComparer.OrdinalIgnoreCase);
 
-            Console.WriteLine(result);
+            Console.WriteLine(resultSet);
         }
     }
 }
