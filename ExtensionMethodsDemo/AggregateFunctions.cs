@@ -265,6 +265,9 @@ namespace ExtensionMethodsDemo
             //returns true cos it contains any element
             var result2 = numbers.Any();
 
+            //returns false cos no number in the numbers array is greater then 10
+            var results3 = numbers.Any(x => x > 10);
+
             Console.WriteLine(result);
         }
     }
