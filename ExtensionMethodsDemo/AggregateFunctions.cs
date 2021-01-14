@@ -262,6 +262,9 @@ namespace ExtensionMethodsDemo
             //result returns true cos all numbers is less than 10
             var result = numbers.All(x => x < 10);
 
+            //returns true cos it contains any element
+            var result2 = numbers.Any();
+
             Console.WriteLine(result);
         }
     }
