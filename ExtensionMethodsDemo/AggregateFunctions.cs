@@ -244,7 +244,7 @@ namespace ExtensionMethodsDemo
             string[] countries = { "USA", "INDIA", "UK" };
             string[] countries2 = { "USA", "india", "UK" };
 
-            //this is case sensitive
+            //this is case sensitive 
             var result = countries.SequenceEqual(countries2);
 
             //Ignores the case and returns true
