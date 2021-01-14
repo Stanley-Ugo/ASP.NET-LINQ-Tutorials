@@ -261,6 +261,8 @@ namespace ExtensionMethodsDemo
 
             //result returns true cos all numbers is less than 10
             var result = numbers.All(x => x < 10);
+
+            Console.WriteLine(result);
         }
     }
 }
