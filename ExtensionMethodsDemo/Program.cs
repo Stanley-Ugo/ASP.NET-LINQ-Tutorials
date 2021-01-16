@@ -16,6 +16,7 @@ namespace ExtensionMethodsDemo
             //changed first letter to uppercase
             string result = stringName.ChangeFirstLetterCase();
 
+            //Printing the result
             Console.WriteLine(result);
         }
     }
