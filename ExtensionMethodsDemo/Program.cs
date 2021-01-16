@@ -10,7 +10,7 @@ namespace ExtensionMethodsDemo
     {
         static void Main(string[] args)
         {
-            //
+            //Adding a string variable
             string stringName = "pragim";
             string result = stringName.ChangeFirstLetterCase();
 
