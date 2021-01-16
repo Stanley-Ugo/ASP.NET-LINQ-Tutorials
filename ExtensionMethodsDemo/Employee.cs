@@ -14,6 +14,8 @@ namespace ExtensionMethodsDemo
         public string Gender { get; set; }
         public int AnnualSalary { get; set; }
 
+        public int EmployeeAge { get; set; }
+
         public static List<Employee> GetAllEmployee()
         {
             List<Employee> listEmployees = new List<Employee>
