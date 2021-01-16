@@ -116,7 +116,7 @@ namespace ExtensionMethodsDemo
                     Gender = "Male",
                     Subjects = new List<string> {"ASP.NET", "C#"},
                     TotalMarks = 600
-                },
+                }
             };
 
             return listStudent;
