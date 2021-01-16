@@ -12,6 +12,8 @@ namespace ExtensionMethodsDemo
         {
             //Adding a string variable
             string stringName = "pragim";
+
+            //changed first letter to uppercase
             string result = stringName.ChangeFirstLetterCase();
 
             Console.WriteLine(result);
