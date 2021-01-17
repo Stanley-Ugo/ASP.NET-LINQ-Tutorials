@@ -123,7 +123,7 @@ namespace ExtensionMethodsDemo
                     StudentId = 112,
                     Name = "Henry",
                     Gender = "Male",
-                    Subjects = new List<string> {"ASP.NET CORE", "LINQ"},
+                    Subjects = new List<string> {"ASP.NET CORE", "LINQ"}
                 }
             };
 
