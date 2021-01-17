@@ -117,6 +117,11 @@ namespace ExtensionMethodsDemo
                     Subjects = new List<string> {"ASP.NET", "C#"},
                     TotalMarks = 600
                 },
+
+                new Student
+                {
+
+                }
             };
 
             return listStudent;
