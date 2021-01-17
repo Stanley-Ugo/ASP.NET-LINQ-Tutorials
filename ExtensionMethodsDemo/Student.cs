@@ -120,7 +120,7 @@ namespace ExtensionMethodsDemo
 
                 new Student
                 {
-
+                    StudentId = 112,
                 }
             };
 
