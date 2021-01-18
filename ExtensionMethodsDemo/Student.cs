@@ -134,6 +134,7 @@ namespace ExtensionMethodsDemo
                     StudentId = 113,
                     Name = "Sharon Stone",
                     Gender = "Female",
+                    Subjects = new List<string> {"ASP.NET CORE", "LINQ"},
 
                 }
             };
