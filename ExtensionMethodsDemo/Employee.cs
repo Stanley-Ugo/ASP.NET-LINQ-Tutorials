@@ -60,6 +60,8 @@ namespace ExtensionMethodsDemo
                 {
                     EmployeeId = 105,
                     FirstName = "Paul put",
+                    LastName = "Genger",
+
                 }
             };
 
