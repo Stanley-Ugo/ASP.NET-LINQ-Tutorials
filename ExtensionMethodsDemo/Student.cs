@@ -11,6 +11,8 @@ namespace ExtensionMethodsDemo
         public int StudentId { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
+
+        public string Class { get; set; }
         public List<string> Subjects { get; set; }
 
         public int TotalMarks { get; set; }
