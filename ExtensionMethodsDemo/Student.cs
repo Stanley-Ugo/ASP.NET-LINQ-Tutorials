@@ -127,7 +127,8 @@ namespace ExtensionMethodsDemo
                     Gender = "Male",
                     Subjects = new List<string> {"ASP.NET CORE", "LINQ"},
                     TotalMarks = 700
-                }
+                },
+
             };
 
             return listStudent;
