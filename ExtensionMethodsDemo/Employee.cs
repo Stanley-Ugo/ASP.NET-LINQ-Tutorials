@@ -59,6 +59,7 @@ namespace ExtensionMethodsDemo
                 new Employee
                 {
                     EmployeeId = 105,
+                    FirstName = "Paul put",
                 }
             };
 
