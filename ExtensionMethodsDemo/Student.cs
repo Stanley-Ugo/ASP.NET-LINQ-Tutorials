@@ -129,6 +129,10 @@ namespace ExtensionMethodsDemo
                     TotalMarks = 700
                 },
 
+                new Student
+                {
+                    StudentId = 113,
+                }
             };
 
             return listStudent;
