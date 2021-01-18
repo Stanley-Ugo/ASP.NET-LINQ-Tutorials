@@ -58,7 +58,7 @@ namespace ExtensionMethodsDemo
 
                 new Employee
                 {
-
+                    EmployeeId = 105,
                 }
             };
 
