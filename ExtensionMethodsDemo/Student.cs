@@ -132,6 +132,8 @@ namespace ExtensionMethodsDemo
                 new Student
                 {
                     StudentId = 113,
+                    Name = "Sharon Stone",
+
                 }
             };
 
