@@ -133,6 +133,7 @@ namespace ExtensionMethodsDemo
                 {
                     StudentId = 113,
                     Name = "Sharon Stone",
+                    Gender = "Female",
 
                 }
             };
