@@ -62,7 +62,7 @@ namespace ExtensionMethodsDemo
                     FirstName = "Paul put",
                     LastName = "Genger",
                     Gender = "Male",
-
+                    AnnualSalary = 65000
                 }
             };
 
