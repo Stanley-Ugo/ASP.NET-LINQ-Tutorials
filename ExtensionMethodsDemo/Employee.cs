@@ -65,8 +65,10 @@ namespace ExtensionMethodsDemo
                     AnnualSalary = 65000
                 },
 
-                new Employee {}
-
+                new Employee
+                {
+                    EmployeeId = 106,
+                }
             };
 
             return listEmployees;
