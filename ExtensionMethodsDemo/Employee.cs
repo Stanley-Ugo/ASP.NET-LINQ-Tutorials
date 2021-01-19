@@ -64,6 +64,9 @@ namespace ExtensionMethodsDemo
                     Gender = "Male",
                     AnnualSalary = 65000
                 },
+
+                new Employee {}
+
             };
 
             return listEmployees;
