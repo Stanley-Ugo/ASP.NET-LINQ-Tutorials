@@ -50,6 +50,7 @@ namespace ExtensionMethodsDemo
 
             return result;
         }
+
         //Restriction Opeerators
         public void RestrictionOperators()
         {
