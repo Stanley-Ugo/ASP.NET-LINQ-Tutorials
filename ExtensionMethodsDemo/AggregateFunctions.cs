@@ -103,6 +103,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
+
         //SelectMany Operator
         public void SelectManyOperator()
         {
