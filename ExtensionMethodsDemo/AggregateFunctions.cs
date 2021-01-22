@@ -226,6 +226,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
+        //Generation Operators
         public void GenerationOPerators()
         {
             //Generating numbers from 1 - 10 with the Range Operator
