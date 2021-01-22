@@ -201,6 +201,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
+        //Union Operators in linq
         public void UnionOperators()
         {
             //array of integers
