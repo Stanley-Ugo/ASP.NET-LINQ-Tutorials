@@ -252,6 +252,8 @@ namespace ExtensionMethodsDemo
         {
             //String array variable
             string[] countries = { "USA", "INDIA", "UK" };
+
+            //string array variable II
             string[] countries2 = { "USA", "india", "UK" };
 
             //this is case sensitive 
