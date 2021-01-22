@@ -250,6 +250,7 @@ namespace ExtensionMethodsDemo
         //Sequence EqualOperator in LINQ
         public void SequenceEqualOperator()
         {
+            //String array variable
             string[] countries = { "USA", "INDIA", "UK" };
             string[] countries2 = { "USA", "india", "UK" };
 
