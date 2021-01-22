@@ -264,6 +264,7 @@ namespace ExtensionMethodsDemo
 
         }
 
+        //Quantifiers Operators
         public void QuantifiersOperators()
         {
             int[] numbers = { 1, 2, 3, 4, 5 };
