@@ -69,7 +69,7 @@ namespace ExtensionMethodsDemo
                 {
                     EmployeeId = 106,
                     FirstName = "Andrew",
-                    LastName = "Salt",
+                    LastName = "Bane",
                     Gender = "Female",
                     AnnualSalary = 7800
                 }
