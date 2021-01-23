@@ -76,7 +76,7 @@ namespace ExtensionMethodsDemo
 
                 new Employee
                 {
-
+                    EmployeeId = 107,
                 }
             };
 
