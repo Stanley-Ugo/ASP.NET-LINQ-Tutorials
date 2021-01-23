@@ -70,7 +70,7 @@ namespace ExtensionMethodsDemo
                     EmployeeId = 106,
                     FirstName = "Andrew",
                     LastName = "Salt",
-                    Gender = "Male",
+                    Gender = "Female",
                     AnnualSalary = 7800
                 }
             };
