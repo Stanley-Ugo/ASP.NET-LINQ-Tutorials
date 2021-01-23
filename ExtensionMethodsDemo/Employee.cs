@@ -72,6 +72,11 @@ namespace ExtensionMethodsDemo
                     LastName = "Bane",
                     Gender = "Female",
                     AnnualSalary = 7800
+                },
+
+                new Employee
+                {
+
                 }
             };
 
