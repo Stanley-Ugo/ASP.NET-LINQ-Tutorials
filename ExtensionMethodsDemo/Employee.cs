@@ -78,6 +78,8 @@ namespace ExtensionMethodsDemo
                 {
                     EmployeeId = 107,
                     FirstName = "Madonna",
+                    LastName = "Isabella",
+
                 }
             };
 
