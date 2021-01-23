@@ -71,7 +71,7 @@ namespace ExtensionMethodsDemo
                     FirstName = "Andrew",
                     LastName = "Salt",
                     Gender = "Male",
-                    AnnualSalary = 78000
+                    AnnualSalary = 7800
                 }
             };
 
