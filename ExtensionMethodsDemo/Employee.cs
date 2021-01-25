@@ -80,7 +80,7 @@ namespace ExtensionMethodsDemo
                     FirstName = "Madonna",
                     LastName = "Isabella",
                     Gender = "Female",
-                    AnnualSalary = 4000
+                    AnnualSalary = 40000
                 }
             };
 
