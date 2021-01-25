@@ -76,7 +76,7 @@ namespace ExtensionMethodsDemo
 
                 new Employee
                 {
-                    EmployeeId = 107,
+                    EmployeeId = 108,
                     FirstName = "Minn Shin",
                     LastName = "Monroe",
                     Gender = "Male",
