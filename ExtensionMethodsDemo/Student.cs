@@ -146,7 +146,7 @@ namespace ExtensionMethodsDemo
                     Gender = "Male",
                     Subjects = new List<string> {"ASP.NET CORE" ,"LINQ"},
                     Class = "Intermediate",
-                    TotalMarks = 6000
+                    TotalMarks = 600
                 }
             };
 
