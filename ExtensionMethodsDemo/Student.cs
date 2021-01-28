@@ -143,8 +143,8 @@ namespace ExtensionMethodsDemo
                 {
                     StudentId = 114,
                     Name = "Sean",
-                    Gender = "Male"
-                    Subjects = new List<string> {"ASP.NET CORE" ,"LINQ"},
+                    Gender = "Male",
+                    Subjects = new List<string> {"ASP.NET CORE" ,"LINQ"}
                     Class = "Intermediate",
                     TotalMarks = 600
                 }
