@@ -141,7 +141,7 @@ namespace ExtensionMethodsDemo
 
                 new Student
                 {
-                    StudentId = 114
+                    StudentId = 114,
                     Name = "Sean",
                     Gender = "Male",
                     Subjects = new List<string> {"ASP.NET CORE" ,"LINQ"},
