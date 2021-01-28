@@ -142,8 +142,8 @@ namespace ExtensionMethodsDemo
                 new Student
                 {
                     StudentId = 114,
-                    Name = "Sean"
-                    Gender = "Male",
+                    Name = "Sean",
+                    Gender = "Male"
                     Subjects = new List<string> {"ASP.NET CORE" ,"LINQ"},
                     Class = "Intermediate",
                     TotalMarks = 600
