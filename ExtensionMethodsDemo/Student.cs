@@ -142,7 +142,6 @@ namespace ExtensionMethodsDemo
                 new Student
                 {
                     StudentId = 114,
-                    Name = "Sean",
                     
                 }
             };
