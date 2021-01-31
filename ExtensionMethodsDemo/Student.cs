@@ -137,11 +137,6 @@ namespace ExtensionMethodsDemo
                     Subjects = new List<string> {"ASP.NET CORE", "LINQ"},
                     Class = "Entry Level",
                     TotalMarks = 400
-                },
-
-                new Student
-                {
-
                 }
             };
 
