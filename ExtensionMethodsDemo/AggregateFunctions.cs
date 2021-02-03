@@ -278,10 +278,10 @@ namespace ExtensionMethodsDemo
             //returns true cos it contains any element
             var result2 = numbers.Any();
 
-            //returns false cos no number in the numbers array is greater then 10 
+            //returns false cos no number in the numbers array is greater then 10
             var results3 = numbers.Any(x => x > 10);
 
-            //chects to see if an element is present in a sequence
+            //chects to see if an element is present in a sequence 
             var result4 = numbers.Contains(3);
 
             //Adding a string array
