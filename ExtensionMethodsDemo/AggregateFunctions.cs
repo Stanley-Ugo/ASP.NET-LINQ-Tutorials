@@ -287,7 +287,7 @@ namespace ExtensionMethodsDemo
             //Adding a string array 
             string[] countries = { "USA", "INDIA", "UK" };
 
-            //returns true after comparing regardles of case
+            //returns true after comparing regardles of case 
             var resultSet = countries.Contains("india", StringComparer.OrdinalIgnoreCase);
 
             Console.WriteLine(resultSet);
