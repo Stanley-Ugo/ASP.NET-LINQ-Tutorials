@@ -284,7 +284,7 @@ namespace ExtensionMethodsDemo
             //chects to see if an element is present in a sequence 
             var result4 = numbers.Contains(3);
 
-            //Adding a string array
+            //Adding a string array 
             string[] countries = { "USA", "INDIA", "UK" };
 
             //returns true after comparing regardles of case
