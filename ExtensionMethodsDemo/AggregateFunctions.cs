@@ -272,10 +272,10 @@ namespace ExtensionMethodsDemo
         {
             int[] numbers = { 1, 2, 3, 4, 5 };
 
-            //result returns true cos all numbers is less than 10 
+            //result returns true cos all numbers is less than 10
             var result = numbers.All(x => x < 10);
 
-            //returns true cos it contains any element
+            //returns true cos it contains any element 
             var result2 = numbers.Any();
 
             //returns false cos no number in the numbers array is greater then 10
