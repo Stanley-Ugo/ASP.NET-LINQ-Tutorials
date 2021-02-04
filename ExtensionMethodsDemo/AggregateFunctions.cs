@@ -66,7 +66,7 @@ namespace ExtensionMethodsDemo
         }
 
 
-        //Projection Operation
+        //Projection Operation 
         public void ProjectionOperation()
         {
             //Getting the List of Employees ID
