@@ -147,7 +147,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
-        //Paginatrion With Skip & Take
+        //Paginatrion With Skip & Take 
         public void PaginationWithSkipAndTake()
         {
             do
