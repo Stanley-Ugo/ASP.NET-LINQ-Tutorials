@@ -104,7 +104,7 @@ namespace ExtensionMethodsDemo
         }
 
 
-        //SelectMany Operator 
+        //SelectMany Operator
         public void SelectManyOperator()
         {
             //Gets all Distinct students's subjects from the list of subjects returned
@@ -136,7 +136,7 @@ namespace ExtensionMethodsDemo
         }
 
 
-        //Sorting OPerators
+        //Sorting OPerators 
         public void SortingOperators()
         {
             IOrderedEnumerable<Student> result = Student.GetAllStudents().OrderBy(s => s.TotalMarks).ThenBy(s => s.Name).ThenByDescending(s => s.StudentId);
