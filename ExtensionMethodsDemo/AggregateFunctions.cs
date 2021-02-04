@@ -104,7 +104,7 @@ namespace ExtensionMethodsDemo
         }
 
 
-        //SelectMany Operator
+        //SelectMany Operator 
         public void SelectManyOperator()
         {
             //Gets all Distinct students's subjects from the list of subjects returned
