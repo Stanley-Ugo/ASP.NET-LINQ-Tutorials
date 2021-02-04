@@ -187,7 +187,7 @@ namespace ExtensionMethodsDemo
             } while (1 == 1);
         }
 
-        //Set Operators In LINQ
+        //Set Operators In LINQ 
         public void SetOperators()
         {
             string[] countries = { "USA", "usa", "INDIA", "UK", "UK" };
