@@ -247,7 +247,7 @@ namespace ExtensionMethodsDemo
             }
         }
 
-        //Sequence EqualOperator in LINQ
+        //Sequence EqualOperator in LINQ 
         public void SequenceEqualOperator()
         {
             //String array variable
