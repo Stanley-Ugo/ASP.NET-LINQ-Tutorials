@@ -132,7 +132,7 @@ namespace ExtensionMethodsDemo
                 new Student
                 {
                     StudentId = 113,
-                    Name = "Sharon Stone"
+                    Name = "Sharon Stone",
                     Gender = "Female",
                     Subjects = new List<string> {"ASP.NET CORE", "LINQ"},
                     Class = "Entry Level",
