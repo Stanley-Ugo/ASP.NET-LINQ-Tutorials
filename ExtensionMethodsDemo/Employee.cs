@@ -81,7 +81,7 @@ namespace ExtensionMethodsDemo
                     LastName = "Monroe",
                     Gender = "Male",
                     AnnualSalary = 4000
-                },
+                }
             };
 
             return listEmployees;
