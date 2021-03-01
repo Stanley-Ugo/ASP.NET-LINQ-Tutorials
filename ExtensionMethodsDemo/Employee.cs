@@ -80,7 +80,7 @@ namespace ExtensionMethodsDemo
                     FirstName = "Minn Shin",
                     LastName = "Monroe",
                     Gender = "Male",
-                    AnnualSalary = 40000
+                    AnnualSalary = 4000
                 }
             };
 
