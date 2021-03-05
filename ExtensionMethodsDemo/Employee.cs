@@ -78,7 +78,7 @@ namespace ExtensionMethodsDemo
                 {
                     EmployeeId = 108,
                     FirstName = "Minn Shin",
-                    LastName = "Monroe",
+                    LastName = "Monroe"
                     Gender = "Male",
                     AnnualSalary = 4000
                 }
